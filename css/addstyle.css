@@ -1,0 +1,234 @@
+.btn.btn-lg:hover{
+  color: #2196f3!important;
+}
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover{
+  color: #2196f3!important;
+  transform: .35s!important;
+}
+.mdb-color.lighten-3 {
+  background-color: #0d41e1!important;
+}
+.dropdown {
+    min-width: 15em;
+    position: relative;
+    margin: 2em;
+  }
+  
+  .dropdown * {
+    box-sizing: border-box;
+  } 
+  
+  .select {
+    background: #007bff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.1em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 6px;
+    padding-left: 6px;
+    font-weight: 300;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+  
+  .select-clicked {
+    box-shadow: none;
+  }
+  
+  
+  .caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.45s;
+  }
+  
+  .caret-rotate {
+    transform: rotate(180deg);
+  }
+  
+  .menu {
+    list-style: none;
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color: #161D6E;
+    border-radius: 0.5em;
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.3s;
+  }
+  
+  .menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .menu li:hover {
+    background-color: #161D6E;
+    transition: .35s;
+  }
+  
+  .menu-open {
+    display: block;
+    opacity: 1;
+    max-height: 500px;
+  }
+  .newsletter{
+    background-color: #0d41e1;
+    background-size: cover;
+    padding: 10px 40px;
+    text-align: center;
+    color: white;
+}
+.newsletter p {
+    max-width: 600px;
+    margin: 15px auto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.email-box{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.email-box i{
+    width: 40px;
+    line-height: 40px;
+}
+.tbox, .btn{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 0px;
+    transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+    width: 260px;
+    padding: 0 10px;
+}
+.btn{
+    background: #161D6E;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn:hover{
+  background-color: #2196f3;
+  color: white;
+}
+.container-footer {
+	background: #161D6E;
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: #fff;
+	line-height: 1.5;
+}
+.single-box h4 {
+  padding: 0px 12px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 10px;
+  margin-right: 10px;
+}
+.single-box ul {
+  list-style: none;
+  padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	color: #fff;
+}
+.socials i {
+	font-size: 18px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.socials i:hover{
+  color: #2196f3;
+}
+
+.card-area i:hover{
+  color: #2196f3;
+  font-size: 30px;
+  transition: 0.6s;
+  cursor: pointer
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+.btn-primary {
+  background-color: #161D6E!important;
+  color: #fff;
+}
+.btn-secondary {
+  background-color: #161D6E!important;
+  color: #fff;
+}
+.badge-secondary {
+  background-color: #161D6E!important;
+}
+.spt-4{
+  background-color: #0d41e1;
+  background-size: cover;
+  padding: 10px 40px;
+  text-align: center;
+  color: white;
+}
+.pb-4{
+  background-color: #0d41e1!important;
+  background-size: cover;
+}
+.footer-copyright{
+  background: #161D6E!important;
+  color: white;
+}
